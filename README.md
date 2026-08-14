@@ -68,4 +68,4 @@ Current version: 0.1.0-alpha
 - Project was started two years ago and came back once AI was a way better tool for development :)
 
 ---
-Copyright 2026 Alvajoy 'Alvajoy123' Asante. All rights reserved.
+Copyright 2026 Alvajoy '*Alvajoy123*' Asante. All rights reserved.
