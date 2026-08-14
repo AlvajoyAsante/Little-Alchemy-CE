@@ -5,7 +5,7 @@
 extern "C" {
 #endif
 
-#define ALCHM08_appvar_size 16791
+#define ALCHM08_appvar_size 17369
 #define element_pack_08_palette_offset 0
 #define element_482_width 32
 #define element_482_height 32
