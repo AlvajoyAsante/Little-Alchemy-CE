@@ -4,6 +4,14 @@ Little Alchemy CE is a TI-84 Plus CE game that recreates the classic item-combin
 
 Play the original game online: [Little Alchemy](https://littlealchemy.com/)
 
+
+## Screenshot
+
+|  |  |
+| --- | --- |
+| ![Little Alchemy CE Screenshot](docs/demo_1.png) | ![Little Alchemy CE Screenshot](docs/demo_2.png) |
+<!-- | ![Little Alchemy CE Screenshot](docs/demo_3.png) | ![Little Alchemy CE Screenshot](docs/demo_4.png) | -->
+
 ## Build
 
 1. Install the latest CE Toolchain and CE Libraries. Oxygen is already included in `src/oxygen`.
@@ -38,14 +46,18 @@ The calculator program is written to `bin/ALCHEMY.8xp`. Install it together with
 
 See [docs/controls.md](docs/controls.md) for the full control reference.
 
-Progress is saved automatically in the archived `ALCHSAVE` AppVar. A new game starts with water, fire, earth, and air; only discovered elements are available for new combinations.
 
-The project also uses generated sprite assets and AppVar packs for the game content, which are produced during the build workflow.
+## Version
 
+Current version: 0.1.0-alpha
 
+## Credits
+- Developed by: Alvajoy 'Alvajoy123' Asante
+- UI Library: Oxygen
+- Rendering Library: GraphX
+- AI-assisted development: ChatGPT/Fable 5
+- Original game: Jakub Koziol, Michał Koziol, and the Little Alchemy team
+- Project was started two years ago and came back once AI was a way better tool for development :)
 
-## Screenshot
-
-|  |  |
-| --- | --- |
-| ![Little Alchemy CE Screenshot](docs/screenshot.png) | ![Little Alchemy CE Screenshot](docs/screenshot.png) |
+---
+Copyright 2026 Alvajoy 'Alvajoy123' Asante. All rights reserved.

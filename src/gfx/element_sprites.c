@@ -622,10 +622,9 @@ bool element_sprites_init(void)
  * decompressed on demand into a single-sprite cache. The cache is only filled
  * when a sprite is actually drawn, so undiscovered items never occupy RAM.
  *
- * gfx_rletsprite_t only declares a 2-byte header, so we size the cache for a
- * full 32x32 RLET sprite (2-byte header + worst-case 32*32 data = 1026 bytes)
- * to avoid zx7_Decompress overflowing into adjacent memory. */
-#define ELEMENT_SPRITE_CACHE_SIZE (2 + 32 * 32)
+ * A 32x32 RLET sprite needs a 2-byte header plus up to three bytes per pixel
+ * in convimg's worst-case encoding. */
+#define ELEMENT_SPRITE_CACHE_SIZE (2 + 3 * 32 * 32)
 static uint8_t decompressed_sprite[ELEMENT_SPRITE_CACHE_SIZE];
 static uint16_t decompressed_item_id = 0xFFFF;
 
