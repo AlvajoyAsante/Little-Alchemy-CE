@@ -1,5 +1,9 @@
-![Little Alchemy CE Icon](docs/title_logo.png)
-# Little Alchemy CE
+<p align="center">
+  <img src="docs/title_logo.png" alt="Little Alchemy CE Icon" width="128">
+  <br>
+  <h1>Little Alchemy CE</h1>
+</p>
+
 Little Alchemy CE is a TI-84 Plus CE game that recreates the classic item-combination gameplay using Oxygen for UI input and GraphX for rendering.
 
 Play the original game online: [Little Alchemy](https://littlealchemy.com/)
@@ -7,10 +11,14 @@ Play the original game online: [Little Alchemy](https://littlealchemy.com/)
 
 ## Screenshot
 
-|  |  |
-| --- | --- |
-| ![Little Alchemy CE Screenshot](docs/demo_1.png) | ![Little Alchemy CE Screenshot](docs/demo_2.png) |
-<!-- | ![Little Alchemy CE Screenshot](docs/demo_3.png) | ![Little Alchemy CE Screenshot](docs/demo_4.png) | -->
+<p align="center">
+  <table>
+    <tr>
+      <td align="center"><img src="docs/demo_1.png" alt="Little Alchemy CE Screenshot" width="420"></td>
+      <td align="center"><img src="docs/demo_2.png" alt="Little Alchemy CE Screenshot" width="420"></td>
+    </tr>
+  </table>
+</p>
 
 ## Build
 
