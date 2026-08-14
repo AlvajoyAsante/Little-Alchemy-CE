@@ -7,9 +7,9 @@ extern "C" {
 
 #define settings_button_width 24
 #define settings_button_height 24
-#define settings_button_size 266
+#define settings_button_size 626
 #define settings_button ((gfx_rletsprite_t*)settings_button_data)
-extern unsigned char settings_button_data[266];
+extern unsigned char settings_button_data[626];
 
 #ifdef __cplusplus
 }

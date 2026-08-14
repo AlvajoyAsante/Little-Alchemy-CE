@@ -1,8 +1,9 @@
 # Little Alchemy CE
-
-The UI also uses Oxygen, vendored under `src/oxygen` as documented by that project. The current snapshot is upstream commit `497a9069ade9e44a577fd2323f6f33d8fc9036c6`. Oxygen provides the on-screen mouse, hover detection, selected inventory row, and rounded shapes, while GraphX handles the freeform workspace, alphabet rail, text, and AppVar-backed element sprites.
+Little Alchemy CE is a TI-84 Plus CE game that recreates the classic item-combination gameplay using Oxygen for UI input and GraphX for rendering. The game's progress is stored in the archived `ALCHSAVE` AppVar, and new runs begin with the four classic starter elements: water, fire, earth, and air.
 
 ## Build
+
+The UI also uses Oxygen, vendored under `src/oxygen` as documented by that project. The current snapshot is upstream commit `497a9069ade9e44a577fd2323f6f33d8fc9036c6`. Oxygen provides the on-screen mouse, hover detection, selected inventory row, and rounded shapes, while GraphX handles the freeform workspace, alphabet rail, text, and AppVar-backed element sprites.
 
 1. Install the latest CE Toolchain and CE Libraries. Oxygen is already included in `src/oxygen`.
 2. Open a CEdev shell and change to this directory.
@@ -13,18 +14,28 @@ The calculator program is written to `bin/ALCHEMY.8xp`. Install it together with
 
 ## Controls
 
-- Arrow keys: move the Oxygen mouse.
-- Hold Enter or 2nd: pick up the item under the pointer; release to drop it.
-- Drag a drawer element into empty canvas space to place it.
-- Drag one canvas element over another to combine them.
-- Drag the scrollbar at the right edge of the drawer to browse discovered elements.
-- Click an A-Z rail letter: jump the drawer to discovered elements in that section.
-- Recycle button: clear all items from the workspace.
-- Settings button: change item names, control hints, clean confirmation, and pointer speed.
-- In Settings, use Up/Down and Enter/2nd. Press Mode to toggle pointer control; in pointer mode, move with the arrows and click with Enter/2nd. Use Left/Right to change pointer speed in keyboard mode.
-- Plus/Minus: move the selected slot backward or forward ten discovered elements.
-- Del twice: erase progress and return to the four starting elements.
-- Clear: save and exit.
+| Action | Input |
+| --- | --- |
+| Move the Oxygen mouse | Arrow keys |
+| Pick up the item under the pointer | Hold Enter or 2nd |
+| Drop the picked-up item | Release Enter or 2nd |
+| Place a drawer element into empty canvas space | Drag a drawer element into empty canvas space |
+| Combine two canvas elements | Drag one canvas element over another |
+| Browse discovered elements | Drag the scrollbar at the right edge of the drawer |
+| Jump to discovered elements in a letter section | Click an A-Z rail letter |
+| Clear all items from the workspace | Recycle button |
+| Change item names, control hints, clean confirmation, and pointer speed | Settings button |
+| Move through Settings | Up/Down |
+| Confirm a Settings option | Enter or 2nd |
+| Toggle pointer control | Press Mode |
+| Move the pointer in pointer mode | Arrow keys |
+| Click in pointer mode | Enter or 2nd |
+| Change pointer speed in keyboard mode | Left/Right |
+| Move the selected slot backward or forward ten discovered elements | Plus/Minus |
+| Erase progress and return to the four starting elements | Del twice |
+| Save and exit | Clear |
+
+See [docs/controls.md](docs/controls.md) for the full control reference.
 
 Progress is saved automatically in the archived `ALCHSAVE` AppVar. A new game starts with water, fire, earth, and air; only discovered elements are available for new combinations.
 

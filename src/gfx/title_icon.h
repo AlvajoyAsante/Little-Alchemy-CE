@@ -7,9 +7,9 @@ extern "C" {
 
 #define title_icon_width 16
 #define title_icon_height 18
-#define title_icon_size 228
+#define title_icon_size 326
 #define title_icon ((gfx_rletsprite_t*)title_icon_data)
-extern unsigned char title_icon_data[228];
+extern unsigned char title_icon_data[326];
 
 #ifdef __cplusplus
 }
