@@ -1,0 +1,25 @@
+# CEdev / TI-84 Plus CE build artifacts
+/bin/
+/obj/
+
+# Compiled and generated outputs
+*.8xp
+*.8xv
+*.8xk
+*.8xe
+*.bin
+*.o
+*.a
+*.elf
+*.map
+*.sym
+*.lst
+*.tmp
+*.bak
+
+# Common toolchain temporary files
+*.log
+*.g1
+*.g2
+*.g3
+*.g4
